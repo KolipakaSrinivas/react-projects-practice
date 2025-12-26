@@ -1,0 +1,40 @@
+.product-card {
+  width: 220px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+}
+.product-card img {
+  width: 180px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paganation-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.paganation-bar span {
+  border: 1px solid;
+  padding: 5px;
+  padding-inline: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.active-page {
+  background-color: gray;
+}
+
+button {
+  cursor: pointer;
+}
