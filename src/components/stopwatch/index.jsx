@@ -1,0 +1,1 @@
+export {stopWatch} from "./index"
